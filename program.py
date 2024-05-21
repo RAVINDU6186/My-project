@@ -1,3 +1,5 @@
-value = 10
+from phones import Phones
+
+phones = Phones('A')
 print"hello"
-print(value)
+print(phones.value)
