@@ -7,3 +7,6 @@ def counter(limit=10, reset=False):
         count += 1
         print(count)
     counter.count = count
+#Get Outputs    
+counter()
+counter(reset=True)
