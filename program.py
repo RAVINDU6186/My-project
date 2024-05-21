@@ -1,5 +1,7 @@
 from phones import Phones
 
-phones = Phones('A')
+phones1 = Phones('A')
+phones2 = Phones('b')
 print"hello"
-print(phones.value)
+print(phones1.value)
+print(phones2.value)
