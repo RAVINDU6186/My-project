@@ -1,5 +1,5 @@
-def counter():
+def counter(limit=10):
     count = 0
-    while True:
+    while count < limit:
         count += 1
         print(count)
